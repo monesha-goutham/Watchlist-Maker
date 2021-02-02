@@ -15,9 +15,9 @@ This is a movie watch-list maker created with ❤ using React.js
 
 ## Learning Outcome
 
-This project is purely frontend-focused, especiallly focused on using the top four hooks in React.js. Also getting a hold of global state management using the context api. So, in its entireity, this project deals with fetching data from the API, managing states between component and changing the states using a reducer action.
+This project is purely **frontend-focused**, especiallly focused on using the **top four hooks** in React.js. Also getting a hold of **global state management** using the context api. So, in its entireity, this project deals with **fetching data** from the API, **managing states** between component and changing the states using a **reducer action**.
 
-There will be a backend added to this app in the future.
+There will be a backend added to this app in the *future*.
 
 ## App Description
 
