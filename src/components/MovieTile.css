@@ -1,0 +1,50 @@
+.movie-tile {
+	position: relative;
+
+	border-radius: 10px;
+}
+.movie-tile:hover {
+	position: relative;
+
+	border: 2px solid var(--secondary);
+	/* border-style: inset; */
+}
+
+.movie-poster {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	object-fit: fill;
+}
+
+.control-btns {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.movie-tile .control-btns {
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+
+.movie-tile:hover .control-btns {
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+
+.tile-btn {
+	background-color: var(--primary) !important;
+	color: var(--secondary) !important;
+	font-weight: bold !important;
+	border: 2px solid var(--secondary) !important;
+	/* text-transform: inherit !important; */
+}
+
+.tile-btn:hover {
+	background-color: var(--secondary) !important;
+	color: var(--secondary-text) !important;
+	font-weight: bold !important;
+}

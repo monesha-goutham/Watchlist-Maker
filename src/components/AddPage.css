@@ -1,0 +1,30 @@
+.add {
+	display: grid;
+	place-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.add__container {
+	width: 600px;
+	height: 100%;
+	/* padding: 10vh 0; */
+	/* background-color: salmon; */
+}
+
+.add__search {
+	margin: 50px 0;
+	width: 100%;
+}
+
+.add__search > input {
+	/* margin: 20px 0; */
+	width: 100%;
+	outline-width: 0;
+	background-color: var(--primary);
+	padding: 15px 20px;
+	border: none;
+	color: var(--secondary);
+	border-radius: 10px;
+	font-size: 20px;
+}

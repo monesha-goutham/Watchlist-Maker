@@ -1,0 +1,23 @@
+.watchlist {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5vh;
+}
+
+.watchlist__heading {
+	/* width: 100%; */
+	margin: 30px auto;
+	text-align: center;
+}
+
+.watchlist__grid {
+	display: grid;
+	grid-gap: 15px;
+
+	/* background-color: salmon; */
+	max-width: 1000px;
+
+	margin: auto;
+
+	grid-template-columns: repeat(5, 1fr);
+}
