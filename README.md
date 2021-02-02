@@ -26,3 +26,5 @@ The watch-list maker is self-explanatory. You add new movies to the watchlist by
 Furthermore, you can delete the movies or even toggle the movies to and fro between the **"Watch-list"** and the **"Watched-list"**. 
 
 ### App website
+
+https://watchlist-9788a.web.app/
